@@ -44,13 +44,21 @@
   background-color: #566246;
   color: #f8fafb;
 }
-main{
+.main{
 width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-transform: translateY(120px) translateX(-50px);
+transform: translateY(120px);
+}
+.mainmin{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transform: translateY(120px) translateX(-30px);
 }
 #viewrre .delete{
   background-color: #785964;

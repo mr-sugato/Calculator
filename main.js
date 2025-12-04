@@ -18,6 +18,7 @@ let history = document.getElementsByClassName("his")[0];
 let btns = document.getElementsByClassName("btns");
 let bg = document.getElementsByClassName("bg")[0];
 let res = document.getElementsByClassName("res")[0];
+let main = document.getElementsByClassName("main")[0];
 document.getElementById("extention").addEventListener("click", hide);
 function hide() {
   for (let i = 0; i < btns.length; i++) {
@@ -26,6 +27,7 @@ function hide() {
   bg.classList.toggle("bgmin");
   res.classList.toggle("resmin");
   history.classList.toggle("hismin")
+  main.classList.toggle("mainmin")
 }
 function addFunctionality(opr) {
   if (num2 == "0" && opr == "/") {

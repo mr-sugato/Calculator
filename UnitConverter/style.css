@@ -71,6 +71,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   background-color: white;
+  border-radius: 20px;
   color: #5731ec;
   width: 475px;
   height: 111px;

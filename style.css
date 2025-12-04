@@ -148,7 +148,8 @@ font: 500 20px sans-serif;
   background-color: rgb(132, 55, 209);
   border-radius: 10px;
   transform: translateX(320px);
-  z-index: 3;
+
 }
 #Convertor:hover{
-cursor: pointer;}
+cursor: pointer;
+}

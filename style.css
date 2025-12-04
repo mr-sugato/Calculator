@@ -103,7 +103,7 @@ z-index: -1;
 padding: 20px;
 }
 .res{
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -116,7 +116,7 @@ padding: 20px;
   transform: translatex(-5px);
 }
 .resmin{
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -142,3 +142,13 @@ font: 500 20px sans-serif;
 color: #afbfc0;
 font: 500 20px sans-serif;
 }
+#Convertor{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(132, 55, 209);
+  border-radius: 10px;
+  transform: translateX(320px);
+  z-index: 3;
+}
+#Convertor:hover{
+cursor: pointer;}

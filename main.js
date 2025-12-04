@@ -89,7 +89,7 @@ function addNumber(number) {
 function deleteAll() {
   num1 = num2 = op = "";
   res.textContent = "";
-  history.textContent = "";
+  history.textContent = " ";
 }
 function deleteThis() {
   if (num2 == "" && op == ""&&num1.length > 0) {
